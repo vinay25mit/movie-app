@@ -1,0 +1,26 @@
+
+.search-bar {
+    display: flex;
+    justify-content:right;
+    float:right;
+    align-items: center;
+    margin: 1rem 0;
+  }
+    
+
+    
+  .search:focus {
+    box-shadow: 0 0 8px 3px #4484c4;
+  }
+    
+  @media screen and (max-width: 685px) {
+    .search {
+      width: 75%;
+    }
+  }
+    
+  @media screen and (max-width: 410px) {
+    .search {
+      width: 85%;
+    }
+  }
